@@ -50,7 +50,7 @@ class AdvancedFolderCreatorApp:
     def get_default_config(self):
         """デフォルト設定を返す"""
         return {
-            "default_folders": ["Assets/Editor", "Assets/Scripts", "Assets/Textures"],
+            "default_folders": ["Assets/Editor"],
             "window_settings": {
                 "width": 700,
                 "height": 500,

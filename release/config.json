@@ -1,11 +1,5 @@
 {
-  "default_folders": [
-    "Assets/Editor",
-    "Assets/Scripts",
-    "Assets/Textures",
-    "Assets/Materials",
-    "Assets/Prefabs"
-  ],
+  "default_folders": ["Assets/Editor"],
   "window_settings": {
     "width": 600,
     "height": 450,
