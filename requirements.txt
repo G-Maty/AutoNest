@@ -1,0 +1,9 @@
+# AutoNest - フォルダ自動作成ツール
+# 依存関係: 標準ライブラリのみ使用
+
+# tkinter - GUI (Python標準ライブラリ)
+# os - ファイル操作 (Python標準ライブラリ)  
+# json - 設定ファイル読み込み (Python標準ライブラリ)
+# pathlib - パス操作 (Python標準ライブラリ)
+
+# 追加パッケージは不要

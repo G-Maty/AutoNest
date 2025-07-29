@@ -1,0 +1,18 @@
+{
+  "default_folders": [
+    "Assets/Editor",
+    "Assets/Scripts",
+    "Assets/Textures",
+    "Assets/Materials",
+    "Assets/Prefabs"
+  ],
+  "window_settings": {
+    "width": 600,
+    "height": 450,
+    "title": "AutoNest - フォルダ自動作成ツール"
+  },
+  "log_settings": {
+    "max_lines": 1000,
+    "auto_scroll": true
+  }
+}

@@ -1,0 +1,4 @@
+# AutoNest - exe化用設定
+# PyInstallerで使用する設定とスクリプト
+
+pyinstaller
