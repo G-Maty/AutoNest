@@ -1,0 +1,108 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 仮想環境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller関連
+# PyInstallerによって生成されるファイル
+*.manifest
+*.spec
+build/
+dist/
+
+# IDE・エディタ関連
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS関連
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ログファイル
+*.log
+logs/
+
+# 一時ファイル
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# テスト関連
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook関連
+.ipynb_checkpoints
+
+# pyenv関連
+.python-version
+
+# 設定ファイル（機密情報を含む可能性がある場合）
+# config_local.json
+# secrets.json
+
+# EXE化で生成される一時ファイル
+*.pyz
+*.pyzw
+
+# Windows実行ファイル
+*.exe
+
+# 開発用の一時ファイル
+temp/
+tmp/
+scratch/
+test_output/
+
+# ドキュメント生成
+docs/_build/
+site/
+
+# 依存関係ファイル（環境固有の場合）
+# requirements_local.txt
