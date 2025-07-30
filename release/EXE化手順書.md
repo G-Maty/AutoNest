@@ -12,6 +12,21 @@ AutoNest ツールを exe ファイルに変換してスタンドアロンで実
 
 ## 手順
 
+### 0. プロジェクト準備
+
+#### .gitignore の設定
+
+開発に必要のないファイルをGit管理対象外にするため、プロジェクトルートに`.gitignore`が設定されています：
+
+```gitignore
+# Python関連（__pycache__、*.pyc等）
+# 仮想環境（.venv、venv/等）
+# PyInstaller関連（build/、dist/、*.spec等）
+# IDE・エディタ関連（.vscode/、.idea/等）
+# OS関連（.DS_Store、Thumbs.db等）
+# 実行ファイル（*.exe）
+```
+
 ### 1. PyInstaller のインストール
 
 ```bash
