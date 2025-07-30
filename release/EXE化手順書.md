@@ -16,7 +16,7 @@ AutoNest ツールを exe ファイルに変換してスタンドアロンで実
 
 #### .gitignore の設定
 
-開発に必要のないファイルをGit管理対象外にするため、プロジェクトルートに`.gitignore`が設定されています：
+開発に必要のないファイルを Git 管理対象外にするため、プロジェクトルートに`.gitignore`が設定されています：
 
 ```gitignore
 # Python関連（__pycache__、*.pyc等）
