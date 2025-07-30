@@ -1,11 +1,11 @@
 {
-  "default_folders": ["Assets/Editor", "Assets/Scripts", "Assets/Textures"],
+  "default_folders": ["Assets/Editor"],
   "default_files": [
     {
-      "name": "README.md",
-      "description": "プロジェクト説明ファイル",
-      "template_path": "templates/README.md",
-      "target_path": "README.md"
+      "name": "EditorStartup.cs",
+      "description": "UnityEditorの起動時実行スクリプト",
+      "template_path": "templates/EditorStartup.cs",
+      "target_path": "Assets/Editor/EditorStartup.cs"
     }
   ],
   "window_settings": {

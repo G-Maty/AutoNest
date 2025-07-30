@@ -1,4 +1,16 @@
-# AutoNest - exe化用設定
-# PyInstallerで使用する設定とスクリプト
+# AutoNest v3.0 - EXE化用依存関係
+# PyInstallerを使用してEXEファイルを作成するための依存関係
 
-pyinstaller
+# === ビルドツール ===
+pyinstaller>=6.0.0
+
+# === オプション: パフォーマンス向上 ===
+# upx-ucl  # ファイル圧縮（オプション）
+
+# === 使用方法 ===
+# pip install -r requirements_build.txt
+# build_exe_simple.bat
+
+# === バージョン情報 ===
+# Python 3.7以上で動作確認済み
+# PyInstaller 6.0以上推奨

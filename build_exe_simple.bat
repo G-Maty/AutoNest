@@ -18,12 +18,3 @@ echo - AutoNest_Advanced.exe (拡張版)
 echo.
 
 pause
-
-echo.
-echo EXEファイルの作成が完了しました！
-echo distフォルダ内にEXEファイルが作成されています。
-echo - AutoNest.exe (基本版)
-echo - AutoNest_Advanced.exe (拡張版)
-echo.
-
-pause
