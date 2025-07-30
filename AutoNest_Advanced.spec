@@ -5,7 +5,7 @@ a = Analysis(
     ['advanced_folder_creator.py'],
     pathex=[],
     binaries=[],
-    datas=[('config.json', '.')],
+    datas=[('config.json', '.'), ('templates', 'templates')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

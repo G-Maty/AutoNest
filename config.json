@@ -1,14 +1,16 @@
 {
-  "default_folders": [
-    "Assets/Editor",
-    "Assets/Scripts",
-    "Assets/Textures",
-    "Assets/Materials",
-    "Assets/Prefabs"
+  "default_folders": ["Assets/Editor", "Assets/Scripts", "Assets/Textures"],
+  "default_files": [
+    {
+      "name": "README.md",
+      "description": "プロジェクト説明ファイル",
+      "template_path": "templates/README.md",
+      "target_path": "README.md"
+    }
   ],
   "window_settings": {
-    "width": 600,
-    "height": 450,
+    "width": 700,
+    "height": 600,
     "title": "AutoNest - フォルダ自動作成ツール"
   },
   "log_settings": {
