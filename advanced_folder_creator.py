@@ -336,7 +336,7 @@ class AdvancedFolderCreatorApp:
         default_files = self.config.get("default_files", [])
         for i, file_config in enumerate(default_files):
             # チェックボックス状態変数を作成（デフォルトで非選択）
-            var = tk.BooleanVar(value=False)
+            var = tk.BooleanVar(value=True)
             var.trace_add("write", lambda *args: self.update_preview())
             file_name = file_config.get("name", "")
 
